@@ -1,0 +1,10 @@
+doctype html
+html
+	head
+		title C.H.I.P Remote Remote
+		// link(rel="shortcut icon", href="favicon.png")
+		link(rel="stylesheet",type="text/css",href="style.css")
+		script(src="script.js")
+	body
+		form(action="/", method="POST")
+			button(type="submit", value="turn_tv_off") TV Off 
