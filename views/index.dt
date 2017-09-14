@@ -6,5 +6,6 @@ html
 		link(rel="stylesheet",type="text/css",href="style.css")
 		script(src="script.js")
 	body
+		em Click a button below to perform the action.
 		form(action="/", method="POST")
 			button(type="submit", value="turn_tv_off") TV Off 

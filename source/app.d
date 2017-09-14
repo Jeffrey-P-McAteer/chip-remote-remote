@@ -1,7 +1,4 @@
-import std.concurrency;
-import std.uuid;
 import std.algorithm;
-import std.json;
 
 import core.thread;
 import ddbc;
