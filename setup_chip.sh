@@ -40,8 +40,6 @@ mkdir /etc/lirc/
 # Manually scp over a sane /etc/lirc/lircd.conf
 
 # Debian C.H.I.P fixes
-apt-get install -y linux-image
+#apt-get install -y linux-image
 
-# Copy over and run chip-remote-remote binary
-apt-get install -y git-core
-git clone git@github.com:Jeffrey-P-McAteer/chip-remote-remote.git
+apt-get install python3
