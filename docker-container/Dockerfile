@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM 32bit/ubuntu:16.04
 MAINTAINER jeffrey.p.mcateer@gmail.com
 
 # https://wiki.archlinux.org/index.php/LIRC
