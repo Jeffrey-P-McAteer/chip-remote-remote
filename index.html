@@ -1,12 +1,30 @@
 <!doctype HTML>
 <html>
 	<head>
+		<title>Remote</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body {
+				
+			}
+			input[type="submit"] {
+				margin: 4pt 6pt;
+			}
+		</style>
 	</head>
 	<body>
-		<form action="/button" type="GET">
-			<input type="submit" name="butt" value="Button A">
-			<input type="submit" name="butt" value="Button C">
-			<input type="submit" name="butt" value="Button B">
+		<form action="/" type="POST" class="container">
+			<div class="row">
+				<input type="submit" name="butt" value="Button A" class="btn col-xs-12 col-md-3">
+				<input type="submit" name="butt" value="Jeopardy" class="btn col-xs-12 col-md-3">
+			</div>
 		</form>
+		
+		
+		
+		
 	</body>
+	<!-- Yea yea, it's full of lewd jokes. Fortunately I find age corresponds inversly with ability to discern location of the f12 key. -->
 </html>
